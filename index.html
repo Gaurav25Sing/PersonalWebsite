@@ -1,18 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Gaurav Personal Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav's - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <center>
-  <img src="Profile Picture.gif" alt="Gaurav Profile Picture">
-  <h1>Gaurav Singh</h1>
-  <p>Student 'Yogi' Web developer</p>
-  <hr>
-  </center>
+    <header>
+        <div class="container" style="text-align:right">
+			<div class="side-by-side" style="text-align:left">
+				<h1>Gaurav Singh</h1>
+				<p>Java Web Developer</p>
+			</div>
+			<div class="side-by-side">
+				<img src="Profile Picture.gif" alt="Gaurav Profile Picture">
+			</div>
+			
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Patient, Analytical IT professional with over 3 years of industrial
+				experience and 2 years of hands-on full stack web development.
+				Also possess excellent communication skills. And looking for
+				opportunity to serve an organization and its customers
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="project">
+                <h3>Solifi Software</h3>
+                <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="project">
+                <h3>Nucleus Software</h3>
+                <p>Description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me through the form below or via email at your.email@example.com.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+	<section id="portfolio">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me through the form below or via email at your.email@example.com.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+	
+	
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Gaurav. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
